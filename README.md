@@ -1,3 +1,13 @@
 # 385_1
 
-https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04-ru
+
+sudo apt update
+sudo apt install nginx
+
+sudo ufw allow 'Nginx HTTP'
+
+sudo ufw enable
+systemctl status nginx
+
+http://localhost
+

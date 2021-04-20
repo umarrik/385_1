@@ -1,5 +1,5 @@
 <?php
-$pdo = new PDO('pgsql:host=localhost;dbname=messages', 'kali', 'kali##');
+$pdo = new PDO('pgsql:host=localhost;dbname=messages', 'kali', '');
 
 $date = date('Y-m-d_h:i:s A');
 

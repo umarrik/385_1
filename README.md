@@ -11,3 +11,6 @@ systemctl status nginx
 
 http://localhost
 
+sudo apt install mysql-server
+sudo apt install php-fpm php-mysql
+

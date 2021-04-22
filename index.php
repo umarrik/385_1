@@ -1,7 +1,7 @@
 <?php
-$pdo = new PDO('pgsql:host=localhost;dbname=messages', 'kali', '');
+$pdo = new PDO('pgsql:host=localhost;dbname=messages', 'user', '');
 
-$date = date('Y-m-d_h:i:s A');
+$date = date('Y-m-d_h:i:s');
 
 
 if (isset($_POST['message']) AND $_POST['message'] != "") {
@@ -16,7 +16,7 @@ if (isset($_POST['command']) AND $_POST['command'] == 'clear') {
 
 $query = $pdo->query('SELECT * FROM messages');
 $res = $query->fetchAll();
-//print_r($res[0]);
+
 
 
 function cmp($a, $b)

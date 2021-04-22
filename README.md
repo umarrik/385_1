@@ -18,4 +18,4 @@ sudo apt install php-fpm php-mysql
 
 CREATE DATABASE messages;
 USE messages;
-CREATE TABLE messages ( id INT NOT NULL AUTO_INCREMENT, message VARCHAR(40), created DATE, PRIMARY KEY (id));
+CREATE TABLE messages ( id INT NOT NULL AUTO_INCREMENT, message VARCHAR(40), created DATETIME, PRIMARY KEY (id));

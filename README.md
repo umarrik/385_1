@@ -1,7 +1,7 @@
 # 385_1
 
 
-sudo apt update
+ufws
 sudo apt install nginx
 
 sudo ufw allow 'Nginx HTTP'
